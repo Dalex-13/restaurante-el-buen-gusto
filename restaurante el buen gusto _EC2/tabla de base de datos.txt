@@ -1,0 +1,16 @@
+CREATE TABLE `cliente` (
+  `idCliente` int(11) NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(100) NOT NULL,
+  `apellido` varchar(100) NOT NULL,
+   PRIMARY KEY (`idCliente`) 
+ ) ENGINE=InnoDB AUTO_INCREMENT=24 DEFAULT CHARSET=latin1;
+
+
+
+CREATE TABLE `producto` (
+  `idProducto` int(11) NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(100) NOT NULL,
+  `precio` decimal(8,2) NOT NULL,
+  `stock` int(11) NOT NULL,
+  PRIMARY KEY (`idProducto`)
+) ENGINE=InnoDB AUTO_INCREMENT=48 DEFAULT CHARSET=latin1;
